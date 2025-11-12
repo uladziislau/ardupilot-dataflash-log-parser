@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 
 namespace UDIE.Adrupilot.Dataflash.Dynamic.Helpers.Parsing
-{
+{   
     public static partial class ParsingHelpers
     {
         public static IDictionary<string, object> MarshallDataMessage(byte[] message, string[] messageColumns, string messageFormats, string messageName)

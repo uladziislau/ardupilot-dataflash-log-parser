@@ -22,7 +22,7 @@ public partial class MessagesTransformingHelper
                 case "PIDY":
                 case "PIDE":
                 case "PIDN":
-                case var thisKey when new Regex(@"^PID[0-9]+$").IsMatch(thisKey):
+                case var thisKey when new Regex("^PID[0-9]+$").IsMatch(thisKey):
                     break;
 
                 case "RFND":
