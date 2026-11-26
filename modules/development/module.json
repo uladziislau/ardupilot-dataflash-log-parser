@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "project": "ardupilot-dataflash-log-parser",
+  "remote": "uladziislau/ardupilot-dataflash-log-parser",
+  "class": "research",
+  "lifecycle": "frozen",
+  "stateSource": {
+    "type": "backlog",
+    "path": "data/modules/development/tasks.development.json"
+  },
+  "adapter": {
+    "type": "data-only"
+  }
+}
